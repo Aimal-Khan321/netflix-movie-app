@@ -21,6 +21,8 @@
         .left{
             display: flex;
             align-items: center;
+            // text-decoration: none;
+
         img{
             height: 25px;
             margin-right: 40px;
@@ -28,7 +30,14 @@
         span{
             margin-right: 20px;
             cursor: pointer;
+            font-size: 17px;
+            color: white;
+
         }
+        .nav{
+            text-decoration: none;
+        }
+       
         }
 
         .right{

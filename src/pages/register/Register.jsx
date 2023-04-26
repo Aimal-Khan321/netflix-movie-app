@@ -1,8 +1,11 @@
 import React, { useRef, useState } from "react";
 import "./register.scss";
 
+
 const Register = () => {
+
   const [email, setEmail] = useState("");
+  // eslint-disable-next-line
   const [password, setPassword] = useState("");
 
   const emailRef = useRef();
@@ -17,6 +20,7 @@ const Register = () => {
   }
   return (
     <div className="register">
+    
       <div className="top">
         <div className="wrapper">
           <img
